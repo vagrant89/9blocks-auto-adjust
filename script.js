@@ -1,5 +1,6 @@
 function play() {
-  flash()
+  var startDisable = document.getElementById('start');
+  startDisable.disabled=true;
   var  timer = setInterval("flash()", 2000)
 }
 
